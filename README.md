@@ -67,20 +67,20 @@ To run this project locally, follow these steps:
 
 ### Clone the repository:
  
-git clone https://github.com/Dhiren-Mhatre/SggsCare.git
-cd SggsCare
-**Frontend**:
-cd frontend
-npm install
-npm run dev
-**Dashboard**:
-cd dashboard
-npm install
-npm run dev
-**Backend**:
-cd backend
-npm install
-npm start
+- git clone https://github.com/Dhiren-Mhatre/SggsCare.git
+- cd SggsCare
+- **Frontend**:
+- cd frontend
+- npm install
+- npm run dev
+- **Dashboard**:
+- cd dashboard
+- npm install
+- npm run dev
+- **Backend**:
+- cd backend
+- npm install
+- npm start
 
 ## License
 This project is licensed under the MIT License.
