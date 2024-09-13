@@ -23,7 +23,7 @@ const Register = () => {
     try {
       await axios
         .post(
-          "http://localhost:4000/api/v1/user/patient/register",
+          "https://sggscare-backend-o9h7.onrender.com/api/v1/user/patient/register",
           { firstName, lastName, email, phone, aadhar, dob, gender, password },
           {
             withCredentials: true,

@@ -11,9 +11,12 @@ const Navbar = () => {
 
   const handleLogout = async () => {
     await axios
-      .get("http://localhost:4000/api/v1/user/patient/logout", {
-        withCredentials: true,
-      })
+      .get(
+        "https://sggscare-backend-o9h7.onrender.com/api/v1/user/patient/logout",
+        {
+          withCredentials: true,
+        }
+      )
       .then((res) => {
         toast.success(res.data.message);
         setIsAuthenticated(false);
@@ -33,7 +36,7 @@ const Navbar = () => {
     <>
       <nav className={"container"}>
         <div className="logo">
-          <img src="/sggs.png" alt="logo" className="logo-img"  />
+          <img src="/sggs.png" alt="logo" className="logo-img" />
         </div>
         <div className={show ? "navLinks showmenu" : "navLinks"}>
           <div className="links">
