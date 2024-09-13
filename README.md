@@ -35,26 +35,12 @@ SggsCare is a full-fledged hospital management system designed to streamline hos
    - **Admin Login**: Secured dashboard login for hospital management staff.
    - **Role-Based Access Control**: Admins can assign roles and permissions to hospital staff members.
    - **Doctor Management Interface**: Add, update, or remove doctor profiles from the system.
-
-### 6. **Medical Records Management**
-   - **Add/Edit Medical History**: Store and update patient medical records.
-   - **Upload Reports**: Patients and admins can upload and store medical reports.
-   - **View Prescription History**: Patients can view their past prescriptions and medical reports.
-
-### 7. **Billing and Payments**
-   - **Billing System**: Generate invoices for hospital services such as consultations, tests, and treatments.
-   - **Payment Gateway Integration**: Allows patients to make payments online via integrated payment gateways.
-   - **Billing History**: Patients and admins can view past invoices and payment history.
-
-### 8. **Notifications System**
-   - **Email Notifications**: Automatic email reminders for upcoming appointments.
-   - **Appointment Confirmation Emails**: Patients receive email confirmations after booking appointments.
-
-### 9. **Real-time Updates**
+   - 
+### 6. **Real-time Updates**
    - **Appointment Tracking**: Both admins and patients can view live status updates on appointments.
    - **Doctor Availability**: Get real-time updates on doctor schedules and appointments.
 
-### 10. **Responsive Design**
+### 7. **Responsive Design**
    - The entire platform is mobile-friendly and responsive, providing a smooth experience across all device types.
 
 ---
@@ -80,33 +66,22 @@ SggsCare is a full-fledged hospital management system designed to streamline hos
 To run this project locally, follow these steps:
 
 ### Clone the repository:
-
-```bash
+ 
 git clone https://github.com/Dhiren-Mhatre/SggsCare.git
 cd SggsCare
-Frontend:
-bash
-Copy code
+**Frontend**:
 cd frontend
 npm install
 npm run dev
-Dashboard:
-bash
-Copy code
+**Dashboard**:
 cd dashboard
 npm install
 npm run dev
-Backend:
-bash
-Copy code
+**Backend**:
 cd backend
 npm install
 npm start
-Future Enhancements
-Advanced Analytics: Adding more detailed reports and insights for hospital management.
-Multi-language Support: Extend language support for a broader audience.
-Chat with Doctors: Patients will be able to chat with doctors in real-time.
-Telemedicine: Enable video consultations and remote diagnosis.
-License
+
+## License
 This project is licensed under the MIT License.
 
